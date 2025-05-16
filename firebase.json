@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "commpusconnect",
+          "appId": "1:1082549848720:android:f1425e4998fe6b5b01a615",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "commpusconnect",
+          "configurations": {
+            "android": "1:1082549848720:android:f1425e4998fe6b5b01a615",
+            "ios": "1:1082549848720:ios:e36650f5d536206501a615"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
